@@ -17,6 +17,7 @@
 - [s3KeyNormalizer](#s3keynormalizer)
 - [secretsManager](#secretsmanager)
 - [ssm](#ssm)
+- [striptags](#striptags)
 - [validator](#validator)
 - [urlEncodeBodyParser](#urlencodebodyparser)
 - [warmup](#warmup)
@@ -692,6 +693,17 @@ handler(event, context, (_, response) => {
   expect(context.SOME_ACCESS_TOKEN).toEqual('some-access-token')
 })
 ```
+
+## [striptags](/src/middlewares/striptags.js)
+
+
+### Options
+
+TODO
+
+### Sample Usage
+
+TODO
 
 ## [validator](/src/middlewares/validator.js)
 
